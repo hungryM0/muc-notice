@@ -1,0 +1,14 @@
+# Runtime secrets and generated session state
+config.toml
+.config.toml.tmp-*
+telegram.toml
+telegram.token
+data/
+
+# Build artifacts
+/muc-notice
+*.exe
+*.test
+
+# Local deployment files
+/deploy/

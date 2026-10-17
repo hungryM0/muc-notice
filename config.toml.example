@@ -1,0 +1,13 @@
+username = 'your_student_id'
+password = 'your_portal_password'
+
+[feed]
+base_url = 'https://my.muc.edu.cn'
+
+[telegram]
+enabled = false
+bot_token_file = ''
+chat_id = 0
+notice_types = [5, 6, 32]
+interval_seconds = 300
+proxy_url = 'socks5://198.18.169.1:1080'
